@@ -14,5 +14,8 @@ Webflow site: https://radiantai-health-3.webflow.io/
 # Instructions
 1. Move everything to `public` folder
 
+# Todo:
+1. add product demo
+2. move to web3forms
 
 
