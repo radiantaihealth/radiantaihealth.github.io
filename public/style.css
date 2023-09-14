@@ -2838,6 +2838,12 @@ p {
   padding-bottom: 24px;
 }
 
+.footer-text {
+  font-size: 14px;
+  color: #999;
+  text-align: right; 
+}
+
 .team-slide-wrapper:nth-child(1) .myimage {
   width: 100%;
   /* height: auto;
