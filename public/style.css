@@ -2838,6 +2838,12 @@ p {
   padding-bottom: 24px;
 }
 
+.team-slide-wrapper:nth-child(2) .myimage {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .myimage {
   text-align: center;
   object-fit: fill;
