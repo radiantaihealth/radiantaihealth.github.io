@@ -2838,19 +2838,20 @@ p {
   padding-bottom: 24px;
 }
 
+.team-slide-wrapper:nth-child(1) .myimage {
+  width: 100%;
+  /* height: auto;
+  margin: 0 auto; */
+}
+
 .team-slide-wrapper:nth-child(2) .myimage {
   width: 100%;
-  height: auto;
-  margin: 0 auto;
+  /* height: auto;
+  margin: 0 auto; */
 }
 
 .myimage {
-  text-align: center;
-  object-fit: fill;
-  margin-bottom: 18px;
-  margin-left: 0;
-  margin-right: auto;
-  display: inline-block;
+  margin: 0 auto;
 }
 
 .team-block-info {
