@@ -7,71 +7,52 @@ import Accordion from "components/accordion/accordion";
 const accordionData = [
   {
     isExpanded: false,
-    title: "How much does it cost to be a credit card merchant?",
+    title: "How does Radiant AI Chat work?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        We are performing retrieval-augmented generation. A user's query is embedded and we match the query against our
+        proprietary dataset of documents. Then, we use our LLM to generate with the retrieved document in context.
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "How can I open a merchant account?",
+    title: "Who is it for?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Our chat is mainly designed for medical professionals with
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "How long does the application take?",
+    title: "Is it free?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        Yes! We plan to keep a free tier permanently to bring medical education to the world.
+        However, we offer more powerful and accurate LLMs and knowledge bases as a premium feature. Please contact us at hello@radiantai.health to obtain a premium account.
+
+        For business users, we offer secure, on-premise HIPPA-compliant chat, integration with EMR,
+        and the ability to chat with your own documents. Please contact us at hello@radiantai.health .
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "Can I make payment outside of Hong Kong?",
+    title: "Why should I use it instead of UpToDate or a textbook?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        It's faster, cheaper and provides the same level of accuracy. As a medical professional, we serve the PDF document that the answer was generated from, so that you can verify the answer for yourself!
+
       </div>
     ),
   },
   {
     isExpanded: false,
-    title: "How do I get the payment complete?",
+    title: "I noticed an answer was wrong! What can I do about it?",
     contents: (
       <div>
-        For our recent trip to S.A. I booked several accommodation thru SA
-        Places. I just wanted to tell you that everything worked out perfectly
-        with all the bookings and also your booking was very quick and
-        professional. I hope I have the opportunity to re-visit South Africa
-        soon, I will then make my bookings with your company again. I will also
-        recommend
+        We are constantly improving our system. Please send us a screenshot at hello@radiantai.health and we will look into the problem.
       </div>
     ),
   },
