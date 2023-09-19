@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container, Flex, Image, Text } from "theme-ui";
 import JackpotCard from "components/cards/jackpot-card";
-import jackpotImage from "assets/jackpot.png";
+import radiantPlatformImage from "assets/RadiantPlatform.png";
 import clinicalLLMImage from "assets/NN.png";
 import dataIntegrationImage from "assets/DataIntegration.png";
 import evidenceImage from "assets/evidence.png";
@@ -30,7 +30,7 @@ const Jackpot = () => {
       <Container>
         <Flex sx={styles.flex}>
           <Box sx={styles.image}>
-            <Image src={jackpotImage} alt="jackpot image" />
+            <Image src={radiantPlatformImage} alt="jackpot image" />
           </Box>
           <Box sx={styles.content}>
             <Box sx={styles.heading}>
@@ -66,6 +66,7 @@ const styles = {
     flex: ["0 0 100%", null, null, null, null, "0 0 62.5%"],
     img: {
       maxWidth: ["100%", null, null, null, null, null, "none"],
+      maxHeight: [null, null, null, null, null, null, "600px"],
       float: "right",
     },
   },
