@@ -1,0 +1,71 @@
+{
+    /*VS Code Configs*/
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.indentSize": "tabSize",
+    "[typescript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.rulers": [79],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[typescriptreact]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.rulers": [79],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+            "source.fixAll": true,
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    /*Language Settings*/
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.rulers": [79],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[javascriptreact]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.rulers": [79],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+            "source.fixAll": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[css]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false, // required
+    "editor.formatOnType": false, // required
+    "editor.formatOnSave": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "vs-code-prettier-eslint.prettierLast": "true",
+    "svg.preview.background": "black" // set as "true" to run 'prettier' last not first
+}
