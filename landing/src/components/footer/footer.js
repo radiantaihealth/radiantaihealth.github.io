@@ -30,7 +30,7 @@ export default function Footer() {
         </Box>
         <Box sx={styles.linksWrap}>
           <Link path="/terms">Terms & Conditions</Link>
-          <Link path="/privacy">Privacy Policy</Link>
+          <Link path="/terms">Privacy Policy</Link>
         </Box>
       </Container>
     </Box>

@@ -1,23 +1,24 @@
 import React from "react";
-import { Box, Container, Flex, Image, Text, Heading } from "theme-ui";
+import { Box, Container, Flex, Image, Text } from "theme-ui";
 import JackpotCard from "components/cards/jackpot-card";
 import jackpotImage from "assets/jackpot.png";
-import jackpotImage1 from "assets/jackpot-1-1.png";
-import jackpotImage2 from "assets/jackpot-1-2.png";
+import clinicalLLMImage from "assets/NN.png";
+import dataIntegrationImage from "assets/DataIntegration.png";
+import evidenceImage from "assets/evidence.png";
 
 const JACKPOT_DATA = [
   {
-    image: jackpotImage1,
+    image: clinicalLLMImage,
     text: "Get access to powerful LLMs curated and specifically trained on unbiased clinical data.",
     heading: "Clinical LLMs",
   },
   {
-    image: jackpotImage2,
+    image: evidenceImage,
     text: "Get a 360 view of evidence to gain confidence in the information that you obtain.",
     heading: "Evidence Curation",
   },
   {
-    image: jackpotImage2,
+    image: dataIntegrationImage,
     text: "Integrate with wide range of your custom data sources to utilize our propietery LLMs to maximize insghts from your data.",
     heading: "Data Integrations",
   },

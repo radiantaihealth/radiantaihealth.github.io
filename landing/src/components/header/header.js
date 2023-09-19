@@ -4,7 +4,7 @@ import logoDark from "assets/logo.svg";
 import { Link } from "components/link";
 import Logo from "components/logo";
 import { DrawerProvider } from "contexts/drawer/drawer.provider";
-import { jsx, Container, Flex } from "theme-ui";
+import { jsx, Container, Flex, Link as A } from "theme-ui";
 import menuItems from "./header.data";
 import MobileDrawer from "./mobileDrawer";
 
@@ -28,13 +28,16 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Link
-            path="https://stackoverflow.com/"
+          <A
+            href="https://chat.radiantai.health/"
+            target="_blank"
             ml={2}
             label="Try Radiant"
             sx={styles.headerBtn}
             variant="buttons.primary"
-          />
+          >
+            Try Radiant
+          </A>
 
           <MobileDrawer />
         </Container>
@@ -58,6 +61,7 @@ const styles = {
     "&:hover": {
       color: "#fff",
     },
+    textDecoration: "none",
   },
   header: {
     color: "text_white",

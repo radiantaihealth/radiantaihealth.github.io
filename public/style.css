@@ -28,6 +28,7 @@ audio:not([controls]) {
 
 a {
   background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
 }
 
 a:active, a:hover {
@@ -2841,7 +2842,7 @@ p {
 .footer-text {
   font-size: 14px;
   color: #999;
-  text-align: right; 
+  text-align: right;
 }
 
 .team-slide-wrapper:nth-child(1) .myimage {

@@ -89,9 +89,8 @@ const styles = {
     img: {
       filter: "grayscale(100%)",
       borderRadius: "5px",
-      heigh: "200px",
+      height: "370px",
       width: "100%",
-      // object-fit: "cover",
       overflow: "hidden",
     },
   },

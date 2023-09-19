@@ -81,7 +81,7 @@ export function AccordionContents({ isOpen, ...props }) {
         padding: "0 15px",
         paddingRight: "40px",
         lineHeight: "30px",
-        color: "#343D48",
+        color: "heading_secondary",
         "@media(min-width: 768px)": {
           padding: "0 30px",
         },

@@ -69,7 +69,7 @@ const styles = {
       li: {
         display: "flex",
         alignItems: "flex-start",
-        color: "#343D48",
+        color: "heading_secondary",
         fontSize: "16px",
         lineHeight: "26px",
         width: "100%",
@@ -142,7 +142,7 @@ const styles = {
       p: {
         lineHeight: 1,
         fontSize: "16px",
-        color: "#343D48",
+        color: "heading_secondary",
         mb: "10px",
       },
     },

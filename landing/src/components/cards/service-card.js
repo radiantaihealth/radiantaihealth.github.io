@@ -43,7 +43,7 @@ const styles = {
     p: {
       fontSize: "16px",
       lineHeight: 1.87,
-      color: "#343D48",
+      color: "heading_secondary",
       mt: "20px",
       mb: "20px",
     },

@@ -76,6 +76,7 @@ const styles = {
     backgroundColor: 'backgound',
     pt: ["80px", null, null, null, "80px", null, "100px"],
     pb: ["40px", null, null, null, "140px", null, "100px"],
+    textAlign: ["center", null, null, null, "left"],
   },
   flex: ["0 0 100%", null, null, null, "0 0 61.5%"],
   blogWrapper: {

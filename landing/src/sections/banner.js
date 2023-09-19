@@ -1,66 +1,15 @@
 import React from "react";
 import { Box, Container, Image, Heading, Text } from "theme-ui";
 import { keyframes } from "@emotion/core";
-import logoImage from "assets/banner-logo.png";
 import bannerImage from "assets/2.png";
-import bannerIcon1 from "assets/banner-icon-1-1.svg";
-import bannerIcon2 from "assets/banner-icon-1-2.svg";
-import bannerIcon3 from "assets/banner-icon-1-3.svg";
-import bannerIcon4 from "assets/banner-icon-1-4.svg";
-import bannerIcon5 from "assets/banner-icon-1-5.svg";
-import bannerIcon6 from "assets/banner-icon-1-6.svg";
-import bannerIcon7 from "assets/dot-pattern.svg";
+
 
 const Banner = () => {
   return (
     <Box as="section" id="banner" sx={styles.banner}>
       <Container sx={styles.container}>
-        {/* <Image
-          sx={styles.bannerIcon1}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon1}
-        /> */}
-        {/* <Image
-          sx={styles.bannerIcon2}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon2}
-        />
-        <Image
-          sx={styles.bannerIcon3}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon3}
-        />
-        <Image
-          sx={styles.bannerIcon4}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon4}
-        />
-        <Image
-          sx={styles.bannerIcon5}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon5}
-        />
-        <Image
-          sx={styles.bannerIcon6}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon6}
-        />
-        <Image
-          sx={styles.bannerIcon7}
-          className="bannerIcon"
-          alt="banner icon"
-          src={bannerIcon7}
-        /> */}
-
-        {/* <Image sx={styles.logo} src={logoImage} alt="logo image" /> */}
         <Heading as="h2">
-          RadiantAI is reimagning the medical knowledge distribution
+          Evidence based knowledge system built on robust clinical LLMs.
         </Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>

@@ -6,7 +6,7 @@ import React, { useContext } from "react";
 import { Scrollbars } from "react-custom-scrollbars";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { Link } from "components/link";
-import { Box, Button } from "theme-ui";
+import { Box, Link as A } from "theme-ui";
 import menuItems from "./header.data";
 
 const MobileDrawer = () => {
@@ -39,25 +39,32 @@ const MobileDrawer = () => {
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
               <Link
-              activeClass="active"
-              // sx={styles.nav.navLink}
-              // to={path}
-              // spy={true}
-              // smooth={true}
-              // offset={-70}
-              // duration={500}
-              key={i}
-              path={path}
-            >
-              {label}
-            </Link>
+                activeClass="active"
+                // sx={styles.nav.navLink}
+                // to={path}
+                // spy={true}
+                // smooth={true}
+                // offset={-70}
+                // duration={500}
+                key={i}
+                path={path}
+              >
+                {label}
+              </Link>
             ))}
           </Box>
 
           <Box sx={styles.menuFooter}>
-            <Button variant="primary" sx={styles.button}>
-              Try Now
-            </Button>
+            <A
+              href="https://chat.radiantai.health/"
+              target="_blank"
+              ml={2}
+              label="Try Radiant"
+              sx={styles.button}
+              variant="buttons.primary"
+            >
+              Try Radiant
+            </A >
           </Box>
         </Box>
       </Scrollbars>
@@ -132,6 +139,7 @@ const styles = {
     fw: "700",
     height: "48px",
     borderRadius: "3px",
+    letterSpacing: "-0.16px",
     cursor: "pointer",
     width: "100%",
     display: "flex",
@@ -140,6 +148,7 @@ const styles = {
     py: "0",
     backgroundColor: "black",
     color: "#fff",
+    textDecoration: "none",
   },
 };
 

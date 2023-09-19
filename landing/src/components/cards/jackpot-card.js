@@ -22,6 +22,7 @@ const styles = {
     display: "flex",
     flexDirection: ["column", null, null, "row"],
     textAlign: ["center", null, null, "left"],
+    alignIteams: ["center", null, null, "left"],
     transition: "all 500ms ease",
     borderRadius: "10px",
     backgroundColor: "#ffffff",
@@ -34,6 +35,8 @@ const styles = {
     flexShrink: "0",
     mr: ["0", null, null, "30px"],
     mb: ["20px", null, null, "0px"],
+    width: [null, null, null, "100px"],
+    height: [null, null, null, "100px"],
   },
   content: {
     h3: {
@@ -45,7 +48,7 @@ const styles = {
     },
     p: {
       fontSize: "15px",
-      color: "#343D48",
+      color: "heading_secondary",
       lineHeight: 1.73,
     },
   },
