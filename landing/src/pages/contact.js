@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "components/layout";
 import SEO from "components/seo";
 import { StickyProvider } from "contexts/app/app.provider";
-import Banner from "sections/banner";
+import Contact from "sections/contact/contact";
 import Blogs from "sections/blogs";
 import CallToAction from "sections/call-to-action";
 import FAQ from "sections/faq";
@@ -21,16 +21,7 @@ export default function IndexPage() {
       <StickyProvider>
         <Layout>
           <SEO title="Radiant AI | Technology" />
-          <Banner />
-          <Services />
-          <Jackpot />
-          <CallToAction />
-          <Featured />
-          <Pricing />
-          <Testimonials />
-          <Blogs />
-          <FAQ />
-          <Subscribe />
+          <Contact />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

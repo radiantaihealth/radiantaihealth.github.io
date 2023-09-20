@@ -10,7 +10,7 @@ const PlatformBanner = () => {
       <Container>
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
-            <Text as="span">design Philosophy</Text>
+            {/* <Text as="span">design Philosophy</Text> */}
             <Heading as="h3">ConVERSE Platform</Heading>
             <Text as="p">
               An end-to-end system that integrates knowledge discovery from
