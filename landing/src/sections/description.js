@@ -6,6 +6,7 @@ const Description = () => {
   return (
     <Box as="section" id="description" sx={styles.description}>
       <Container>
+        <hr />
         <Text as="p">
           Get the high-yield, expert-reviewed information you need in seconds,
           just by asking for it. Built on top of LLMs, RadiantAI Chat allows
@@ -26,8 +27,10 @@ const styles = {
   description: {
     pt: ["80px", null, null, null, "80px", null, "100px"],
     px: ["20px", null, null, null, "350px", null, "370px"],
-    textAlign: ["center", null, null, null, null, "center"],
-
+    textAlign: ["left", null, null, null, null, "center"],
+    hr: {
+      backgroundColor: "black", height:"5px", width:"20%"
+    },
     p: {
       fontSize: "16px",
       lineHeight: 1.87,

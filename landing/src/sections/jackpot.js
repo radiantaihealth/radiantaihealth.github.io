@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Container, Flex, Image, Text } from "theme-ui";
+import BlockTitle from "components/block-title";
 import JackpotCard from "components/cards/jackpot-card";
 import radiantPlatformImage from "assets/RadiantPlatform.png";
 import clinicalLLMImage from "assets/NN.png";
@@ -28,14 +29,15 @@ const Jackpot = () => {
   return (
     <Box as="section" sx={styles.jackpot}>
       <Container>
+      <BlockTitle title="Core Features" text="" />
         <Flex sx={styles.flex}>
           <Box sx={styles.image}>
             <Image src={radiantPlatformImage} alt="jackpot image" />
           </Box>
           <Box sx={styles.content}>
-            <Box sx={styles.heading}>
+            {/* <Box sx={styles.heading}>
               <Text as="span">Core features</Text>
-            </Box>
+            </Box> */}
             <Box sx={styles.jackpotCardBox}>
               {JACKPOT_DATA.map(({ image, heading, text }, index) => (
                 <JackpotCard

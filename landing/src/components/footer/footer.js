@@ -2,8 +2,6 @@
 import React from 'react';
 import { jsx, Box, Text, Container } from 'theme-ui';
 import { Link } from 'components/link';
-import Logo from 'components/logo';
-import logoLight from 'assets/logo-light.svg';
 export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
