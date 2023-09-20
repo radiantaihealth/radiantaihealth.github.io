@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "serve": "next start",
+    "build": "rm -rf ./build && NODE_ENV=production next build",
+    "start": "next start -p 8081",
     "export": "next export",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "deploy": "npm run build && gcloud app deploy"
   },
   "dependencies": {
     "framer-motion": "^2.7.5",
