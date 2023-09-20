@@ -64,10 +64,13 @@ const styles = {
   },
   image: {
     flex: ["0 0 100%", null, null, null, null, "0 0 62.5%"],
+
     img: {
       maxWidth: ["100%", null, null, null, null, null, "none"],
-      maxHeight: [null, null, null, null, null, null, "600px"],
+      maxHeight: [null, null, null, null, null, null, "700px"],
       float: "right",
+      border: 'black 5px',
+      borderRadius: "15px",
     },
   },
   content: {

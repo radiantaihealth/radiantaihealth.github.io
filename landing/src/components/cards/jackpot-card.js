@@ -35,8 +35,8 @@ const styles = {
     flexShrink: "0",
     mr: ["0", null, null, "30px"],
     mb: ["20px", null, null, "0px"],
-    width: [null, null, null, "100px"],
-    height: [null, null, null, "100px"],
+    width: ["100px", null, null, "100px"],
+    height: ["100px", null, null, "100px"],
   },
   content: {
     h3: {

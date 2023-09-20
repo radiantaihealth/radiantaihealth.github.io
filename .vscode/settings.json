@@ -67,5 +67,5 @@
     "editor.formatOnSave": true, // optional
     "editor.formatOnSaveMode": "file", // required to format on save
     "vs-code-prettier-eslint.prettierLast": "true",
-    "svg.preview.background": "black" // set as "true" to run 'prettier' last not first
+    "svg.preview.background": "editor" // set as "true" to run 'prettier' last not first
 }
