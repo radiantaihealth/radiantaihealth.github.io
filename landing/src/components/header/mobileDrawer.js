@@ -59,12 +59,12 @@ const MobileDrawer = () => {
               href="https://chat.radiantai.health/"
               target="_blank"
               ml={2}
-              label="Try Radiant"
+              label="Launch Radiant"
               sx={styles.button}
               variant="buttons.primary"
             >
-              Try Radiant
-            </A >
+              Launch Radiant
+            </A>
           </Box>
         </Box>
       </Scrollbars>

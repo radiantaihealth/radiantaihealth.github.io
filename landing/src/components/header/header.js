@@ -32,11 +32,11 @@ export default function Header({ className }) {
             href="https://chat.radiantai.health/"
             target="_blank"
             ml={2}
-            label="Try Radiant"
+            label="Launch Radiant"
             sx={styles.headerBtn}
             variant="buttons.primary"
           >
-            Try Radiant
+            Launch Radiant
           </A>
 
           <MobileDrawer />
