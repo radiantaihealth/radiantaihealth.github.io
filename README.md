@@ -1,5 +1,10 @@
 # radiantaihealth.github.io
 
+
+## New site
+https://radiantai-landing.uc.r.appspot.com/
+
+
 Built using webflow + web3forms <3 
 Tracking by Google Analytics. 
 Deployed using vercel
