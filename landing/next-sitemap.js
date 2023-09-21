@@ -1,6 +1,7 @@
 module.exports = {
   siteUrl: 'https://radiantai.health',
   generateRobotsTxt: true,
+  sourceDir: 'build',
   // optional
   // robotsTxtOptions: {
   //   additionalSitemaps: [
