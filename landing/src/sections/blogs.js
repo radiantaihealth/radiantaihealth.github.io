@@ -4,14 +4,9 @@ import Masonry from 'react-masonry-component';
 import BlockTitle from 'components/block-title';
 import BlogCard from 'components/cards/blog-card';
 
-import blogImage1 from 'assets/blog-1-1.png';
-import blogImage2 from 'assets/blog-1-2.png';
-import blogImage3 from 'assets/blog-1-3.png';
-import blogImage4 from 'assets/blog-1-4.png';
-
 const BLOG_DATA = [
   {
-    image: blogImage1,
+    image: null,
     title: 'How to work with prototype design with adobe xd featuring tools',
     description:
       'The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design',
@@ -27,14 +22,14 @@ const BLOG_DATA = [
     linkLabel: null,
   },
   {
-    image: blogImage3,
+    image: null,
     title: 'Multiple task wireframing with team management perform better',
     description: null,
     path: '/',
     linkLabel: null,
   },
   {
-    image: blogImage2,
+    image: null,
     title: 'Multiple art board prototype with Figma',
     description:
       'Beyond launched antibias, a Chrome extension that replaces LinkedIn profile photos',
@@ -42,7 +37,7 @@ const BLOG_DATA = [
     linkLabel: 'Learn More',
   },
   {
-    image: blogImage4,
+    image: null,
     title:
       'Team presentation with latest user interface & experience reach more',
     description: null,
