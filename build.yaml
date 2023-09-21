@@ -1,10 +1,10 @@
 steps:
-- name: node
+- name: node:16.20.2
   entrypoint: npm
   dir: 'landing'
   args: ['install']
   id: Install Node Dependencies
-- name: node
+- name: node:16.20.2
   id: Run Build App
   entrypoint: npm
   dir: 'landing'
