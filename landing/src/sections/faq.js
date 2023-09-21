@@ -7,6 +7,15 @@ import Accordion from "components/accordion/accordion";
 const accordionData = [
   {
     isExpanded: false,
+    title: "What is Radiant AI Chat?",
+    contents: (
+      <div>
+        Radiant AI Chat is a medical chatbot that <em>shows you how it generated the data</em>
+      </div>
+    ),
+  },
+  {
+    isExpanded: false,
     title: "How does Radiant AI Chat work?",
     contents: (
       <div>
@@ -20,7 +29,7 @@ const accordionData = [
     title: "Who is it for?",
     contents: (
       <div>
-        Our chat is mainly designed for medical professionals with
+        Our chat is mainly designed for medical professionals or medical learners. But everyone is welcome to use it!
       </div>
     ),
   },
@@ -30,7 +39,7 @@ const accordionData = [
     contents: (
       <div>
         Yes! We plan to keep a free tier permanently to bring medical education to the world.
-        However, we offer more powerful and accurate LLMs and knowledge bases as a premium feature. Please contact us at hello@radiantai.health to obtain a premium account.
+        However, we offer unlimited chats, longer response length and longer chat history as a premium feature. Please contact us at hello@radiantai.health to obtain a premium account.
 
         For business users, we offer secure, on-premise HIPPA-compliant chat, integration with EMR,
         and the ability to chat with your own documents. Please contact us at hello@radiantai.health .
@@ -140,3 +149,5 @@ const styles = {
     flex: ["0 0 100%", null, null, null, "0 0 100%"],
   },
 };
+
+
