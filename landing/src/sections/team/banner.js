@@ -12,11 +12,11 @@ const TEAM_DATA = [
   {
     image: johnImage,
     name: "John Chen",
-    title: "Chief Execetive Officer",
+    title: "Chief Executive Officer",
     description:
-      "The 2019 Innovation by Design Awards honor the designers and businesses \
-      solving the problems of today and tomorrow. It is one of the most \
-      sought-after design",
+      "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP." +
+      "He built new machine learning models at Lyft, deploying them to tens of millions of users. He is currently a medical student (on-leave) at McGill University," +
+      "where he identified the need for LLMs in healthcare.",
     path: null,
     linkLabel: null,
   },

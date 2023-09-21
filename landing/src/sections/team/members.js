@@ -11,7 +11,7 @@ const TEAM_DATA = [
   {
     image: johnImage,
     name: "John Chen",
-    title: "Chief Execetive Officer",
+    title: "Chief Executive Officer",
     description:
       "The 2019 Innovation by Design Awards honor the designers and businesses \
       solving the problems of today and tomorrow. It is one of the most \
