@@ -12,8 +12,8 @@ steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: Deploy to App Engine
   entrypoint: 'bash'
-  args: ['-c', 'gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy']
+  args: ['-c', 'gcloud config set app/cloud_build_timeout 3000 && gcloud app deploy']
   dir: 'landing'
-timeout: '1600s'
+timeout: '3000s'
 options:
   logging: CLOUD_LOGGING_ONLY
