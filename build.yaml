@@ -4,11 +4,6 @@ steps:
   dir: 'landing'
   args: ['install']
   id: Install Node Dependencies
-- name: 'node'
-  id: Set legacy openssl provider
-  entrypoint: 'bash'
-  args: ['-c', 'export NODE_OPTIONS=--openssl-legacy-provider']
-  dir: 'landing'
 - name: node
   id: Run Build App
   entrypoint: npm
