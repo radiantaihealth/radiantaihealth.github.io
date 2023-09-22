@@ -11,7 +11,7 @@ const Banner = () => {
         <Heading as="h2">
           Evidence based knowledge system built on robust clinical LLMs.
         </Heading>
-        <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
+        {/* <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" /> */}
       </Container>
     </Box>
   );

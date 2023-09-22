@@ -24,8 +24,9 @@ const TEAM_DATA = [
     name: "Roustem Khamitov",
     title: "Chief Operations Officer",
     description:
-      "Roustem designed and implemented large scale forecasting systems at \
-      Amazon. Then he founded his travel experience company in Dubai.",
+      "Rustem designed and implemented large scale forecasting systems at \
+      Amazon. He then co-founded a software company in the travel tech space \
+      that has recently achieved a $10k MRR.",
     path: null,
     linkLabel: null,
   },
