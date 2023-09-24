@@ -71,7 +71,7 @@ const FAQ = () => {
   return (
     <Box as="section" sx={styles.faq}>
       <Container>
-        <BlockTitle title="Frequently Asked Question" text="" />
+        <BlockTitle title="Frequently Asked Questions" text="" />
         <Flex sx={styles.flex}>
           <Box sx={styles.faqWrapper}>
             <Accordion items={accordionData} />
