@@ -11,10 +11,10 @@ const platformPlatform = () => {
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
             <Text as="span">Behind the design</Text>
-            <Heading as="h3">ConVERSE Platform</Heading>
+            <Heading as="h3">Osler Platform</Heading>
             <Text as="p">
-              An end-to-end system that integrates knowledge discovery from
-              initial query to resolution to streamline decisons.
+              The online self-learning entity retrieval platform (OSLER) provides an always-updating, constantly
+              tuned data ingestion platform to improve our knowledge base.
             </Text>
           </Box>
           <Box sx={styles.images}>

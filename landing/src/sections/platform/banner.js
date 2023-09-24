@@ -11,10 +11,9 @@ const PlatformBanner = () => {
         <Flex sx={styles.flex}>
           <Box sx={styles.content}>
             {/* <Text as="span">design Philosophy</Text> */}
-            <Heading as="h3">ConVERSE Platform</Heading>
+            <Heading as="h3">OSLER Platform</Heading>
             <Text as="p">
-              An end-to-end system that integrates knowledge discovery from
-              initial query to resolution to streamline decisons.
+              OSLER is our end-to-end, self-learning data ingestion and retrieval platform, which provides the knowledge base for Radiant AI.
             </Text>
           </Box>
           <Box sx={styles.images}>
