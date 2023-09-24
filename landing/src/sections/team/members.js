@@ -13,9 +13,8 @@ const TEAM_DATA = [
     name: "John Chen",
     title: "Chief Executive Officer",
     description:
-      "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP." +
-      "He built new machine learning models at Lyft, deploying them to tens of millions of users. He is currently a medical student at McGill University," +
-      "where he has been building Radiant AI chat full-time.",
+      "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP. " +
+      "After working at Lyft as a Machine Learning Engineer, he went back to medical school at McGill University, where he has been building Radiant AI chat.",
     path: null,
     linkLabel: null,
   },
