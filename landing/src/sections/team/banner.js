@@ -15,8 +15,8 @@ const TEAM_DATA = [
     title: "Chief Executive Officer",
     description:
       "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP." +
-      "He built new machine learning models at Lyft, deploying them to tens of millions of users. He is currently a medical student (on-leave) at McGill University," +
-      "where he identified the need for LLMs in healthcare.",
+      "He built new machine learning models at Lyft, deploying them to tens of millions of users. He is currently a medical student (on leave) at McGill University," +
+      "where he has been building Radiant AI chat full-time.",
     path: null,
     linkLabel: null,
   },

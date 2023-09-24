@@ -10,8 +10,8 @@ const ToU = () => {
             <Heading as="h3">Terms of Use</Heading>
             <Text as="p">
               The following terms of use (the “Terms of Use”) govern your access
-              to and use of: (a) our website located at www.radiantai.health
-              (the “RadiantAI Health Website”); (b) any mobile device software
+              to and use of: (a) our website located at www.radiantai.health and any subdomains
+              (collectively referred to as the “RadiantAI Health Website”); (b) any mobile device software
               provided by us to you (the “RadiantAI Health Application”); (c)
               RadiantAI Health’s proprietary application programming interface,
               and any related documentation (the “RadiantAI Health API”); (d)
@@ -59,6 +59,23 @@ const ToU = () => {
               Subscription Agreement you enter with us.
             </Text>
           </Box>
+
+
+          <Box sx={styles.content}>
+          <Text as="span">
+              A. Radiant AI Health Solution Overview
+          </Text>
+          <Text as="p">
+              Radiant AI Health Solution offers users comprehensive access to medical information, encompassing research, articles, studies, and various other resources. This service is designed for informational objectives only and should not act as a substitute for professional medical guidance, diagnosis, or treatment.
+          </Text>
+          <Text as="span">
+              B. No Medical Advice
+          </Text>
+          <Text as="p">
+              The details presented through Radiant AI Health Solution should not be seen as medical advice, diagnosis, or treatment. It's vital to consult with a qualified healthcare provider about any medical concerns or before making any health-related decisions. In situations where a medical emergency is suspected, contact your healthcare provider or dial 911 immediately. Radiant AI Health Solution is intended as an informational reference and does not endorse, confirm, or advocate particular medical tests, professionals, procedures, viewpoints, or any related content. We advise users to approach the information judiciously and make decisions based on well-informed judgment. Be aware that some content could be explicit or graphic; if such content is not suitable for you, please avoid using our platform.
+          </Text>
+          </Box>
+
 
           <Box sx={styles.content}>
             <Text as="span">
