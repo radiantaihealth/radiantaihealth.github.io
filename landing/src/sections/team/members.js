@@ -13,9 +13,9 @@ const TEAM_DATA = [
     name: "John Chen",
     title: "Chief Executive Officer",
     description:
-      "The 2019 Innovation by Design Awards honor the designers and businesses \
-      solving the problems of today and tomorrow. It is one of the most \
-      sought-after design",
+      "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP." +
+      "He built new machine learning models at Lyft, deploying them to tens of millions of users. He is currently a medical student at McGill University," +
+      "where he has been building Radiant AI chat full-time.",
     path: null,
     linkLabel: null,
   },
@@ -74,7 +74,7 @@ export default TeamMembers;
 
 const styles = {
   blogs: {
-    backgroundColor: 'backgound',
+    backgroundColor: "backgound",
     pt: ["80px", null, null, null, "80px", null, "100px"],
     pb: ["40px", null, null, null, "140px", null, "100px"],
     textAlign: ["center", null, null, null, "left"],
