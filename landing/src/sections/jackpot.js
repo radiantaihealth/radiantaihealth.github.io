@@ -6,7 +6,6 @@ import radiantPlatformImage from "assets/RadiantPlatform.png";
 import clinicalLLMImage from "assets/NN.png";
 import dataIntegrationImage from "assets/DataIntegration.png";
 import evidenceImage from "assets/evidence.png";
-
 const JACKPOT_DATA = [
   {
     image: clinicalLLMImage,
@@ -32,7 +31,17 @@ const Jackpot = () => {
       <BlockTitle title="Core Features" text="" />
         <Flex sx={styles.flex}>
           <Box sx={styles.image}>
-            <Image src={radiantPlatformImage} alt="jackpot image" />
+          <script type="text/javascript" async
+              src="https://play.vidyard.com/embed/v4.js">
+            </script>
+            <img
+              style={{maxWidth: "100%", margin: "auto", display: "block"}}
+              className="vidyard-player-embed"
+              src="https://play.vidyard.com/oE8S8zBieYMnQfax1Rs8Dt.jpg"
+              data-uuid="oE8S8zBieYMnQfax1Rs8Dt"
+              data-v="4"
+              data-type="inline"
+            />
           </Box>
           <Box sx={styles.content}>
             {/* <Box sx={styles.heading}>
