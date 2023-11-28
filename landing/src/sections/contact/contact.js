@@ -20,8 +20,8 @@ const Contact = () => {
             <Text as="p">We are excited to hear from you.</Text>
             <Text as="p">
               Send us a note{" "}
-              <Link href="mailto:hello@radiantai.health">
-                hello@radiantai.health
+              <Link href="mailto:founders@radiantai.health">
+                founders@radiantai.health
               </Link>
             </Text>
           </Box>

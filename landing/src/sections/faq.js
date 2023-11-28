@@ -39,10 +39,10 @@ const accordionData = [
     contents: (
       <div>
         Yes! We plan to keep a free tier permanently to bring medical education to the world.
-        However, we offer unlimited chats, longer response length and longer chat history as a premium feature. Please contact us at hello@radiantai.health to obtain a premium account.
+        However, we offer unlimited chats, longer response length and longer chat history as a premium feature. Please contact us at founders@radiantai.health to obtain a premium account.
 
         For business users, we offer secure, on-premise HIPPA-compliant chat, integration with EMR,
-        and the ability to chat with your own documents. Please contact us at hello@radiantai.health .
+        and the ability to chat with your own documents. Please contact us at founders@radiantai.health .
       </div>
     ),
   },
@@ -61,7 +61,7 @@ const accordionData = [
     title: "I noticed an answer was wrong! What can I do about it?",
     contents: (
       <div>
-        We are constantly improving our system. Please send us a screenshot at hello@radiantai.health and we will look into the problem.
+        We are constantly improving our system. Please send us a screenshot at founders@radiantai.health and we will look into the problem.
       </div>
     ),
   },
