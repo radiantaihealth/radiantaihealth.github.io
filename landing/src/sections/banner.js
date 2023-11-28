@@ -9,7 +9,7 @@ const Banner = () => {
     <Box as="section" id="banner" sx={styles.banner}>
       <Container sx={styles.container}>
         <Heading as="h2">
-          Evidence based knowledge system built on robust clinical LLMs.
+          ChatGPT for healthcare learners
         </Heading>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
