@@ -1,16 +1,25 @@
 import React from "react";
-import { Box, Container, Image, Heading, Text } from "theme-ui";
+import { Box, Container, Image, Heading, Text, Link as A } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import bannerImage from "assets/2.png";
-
 
 const Banner = () => {
   return (
     <Box as="section" id="banner" sx={styles.banner}>
       <Container sx={styles.container}>
-        <Heading as="h2">
-          ChatGPT for healthcare learners
-        </Heading>
+        <Heading as="h2">ChatGPT for healthcare learners</Heading>
+        <Box sx={styles.btnContainer}>
+          <A
+            href="https://chat.radiantai.health/"
+            target="_blank"
+            ml={2}
+            label="Launch Radiant"
+            sx={styles.headerBtn}
+            variant="buttons.primary"
+          >
+            Launch Radiant
+          </A>
+        </Box>
         <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
       </Container>
     </Box>
@@ -107,6 +116,30 @@ const styles = {
     mx: "auto",
     position: "relative",
     maxWidth: ["50%", null, null, "40%", null, "50%"],
+  },
+  btnContainer: {
+    display: "flex", // Enable Flexbox
+    flexDirection: "column", // Stack children vertically
+    alignItems: "center", // Center children horizontally
+    justifyContent: "center", // Center children vertically
+    position: "relative",
+    // ... other styling properties ...
+  },
+  headerBtn: {
+    backgroundColor: "black",
+    fontSize: ["8px", null, null, "8px", "16px", "16px", "16px"],
+    fontWeight: "bold",
+    letterSpacing: "-0.16px",
+    borderRadius: "5px",
+    color: "#ffffff",
+    padding: "6.5px 24px",
+    display: ["inline-block", null, null, null, "inline-block"],
+    ml: ["0", null, null, "auto", "0"],
+    mr: ["0", null, null, "20px", "0"],
+    "&:hover": {
+      color: "#fff",
+    },
+    textDecoration: "none",
   },
   container: {
     position: "relative",
