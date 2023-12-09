@@ -9,6 +9,8 @@ import FAQ from "sections/faq";
 import Featured from "sections/featured";
 import Jackpot from "sections/jackpot";
 import Description from "sections/description";
+import CTABasic from "sections/cta-basic";
+
 import Subscribe from "sections/subscribe";
 import Testimonials from "sections/testimonials";
 import theme from "theme";
@@ -21,9 +23,11 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Radiant AI" />
           <Banner />
-          <Description/>
-          {/* <Services /> */}
           <Jackpot />
+
+          <Description />
+          <CTABasic></CTABasic>
+          {/* <Services /> */}
           {/* <CallToAction />
           <Featured /> */}
 

@@ -10,7 +10,11 @@ const accordionData = [
     title: "What is Radiant AI Chat?",
     contents: (
       <div>
-        Radiant AI Chat is a medical chatbot that <em>shows you how it generated the data</em>
+        Radiant AI Chat is a medical chatbot that{" "}
+        <em>shows you how it generated the data</em>. It is explicitly designed
+        to be explainable and show you the source of its information. It is
+        built on top of our proprietary LLM framework, which is a
+        retrieval-augmented generation model.
       </div>
     ),
   },
@@ -19,8 +23,10 @@ const accordionData = [
     title: "How does Radiant AI Chat work?",
     contents: (
       <div>
-        We are performing retrieval-augmented generation. A user's query is embedded and we match the query against our
-        proprietary dataset of documents. Then, we use our LLM to generate with the retrieved document in context.
+        We are performing retrieval-augmented generation. A user's query is
+        embedded and we match the query against our proprietary dataset of
+        documents. Then, we use our LLM to generate with the retrieved document
+        in context.
       </div>
     ),
   },
@@ -29,7 +35,8 @@ const accordionData = [
     title: "Who is it for?",
     contents: (
       <div>
-        Our chat is mainly designed for medical professionals or medical learners. But everyone is welcome to use it!
+        Our chat is mainly designed for medical professionals or medical
+        learners. But everyone is welcome to use it!
       </div>
     ),
   },
@@ -38,11 +45,13 @@ const accordionData = [
     title: "Is it free?",
     contents: (
       <div>
-        Yes! We plan to keep a free tier permanently to bring medical education to the world.
-        However, we offer unlimited chats, longer response length and longer chat history as a premium feature. Please contact us at founders@radiantai.health to obtain a premium account.
-
-        For business users, we offer secure, on-premise HIPPA-compliant chat, integration with EMR,
-        and the ability to chat with your own documents. Please contact us at founders@radiantai.health .
+        Yes! We plan to keep a free tier permanently to bring medical education
+        to the world. However, we offer unlimited chats, longer response length
+        and longer chat history as a premium feature. Please contact us at
+        founders@radiantai.health to obtain a premium account. For business
+        users, we offer secure, on-premise HIPPA-compliant chat, integration
+        with EMR, and the ability to chat with your own documents. Please
+        contact us at founders@radiantai.health .
       </div>
     ),
   },
@@ -51,8 +60,9 @@ const accordionData = [
     title: "Why should I use it instead of UpToDate or a textbook?",
     contents: (
       <div>
-        It's faster, cheaper and provides the same level of accuracy. As a medical professional, we serve the PDF document that the answer was generated from, so that you can verify the answer for yourself!
-
+        It's faster, cheaper and provides the same level of accuracy. As a
+        medical professional, we serve the PDF document that the answer was
+        generated from, so that you can verify the answer for yourself!
       </div>
     ),
   },
@@ -61,7 +71,8 @@ const accordionData = [
     title: "I noticed an answer was wrong! What can I do about it?",
     contents: (
       <div>
-        We are constantly improving our system. Please send us a screenshot at founders@radiantai.health and we will look into the problem.
+        We are constantly improving our system. Please send us a screenshot at
+        founders@radiantai.health and we will look into the problem.
       </div>
     ),
   },
@@ -149,5 +160,3 @@ const styles = {
     flex: ["0 0 100%", null, null, null, "0 0 100%"],
   },
 };
-
-

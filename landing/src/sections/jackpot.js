@@ -6,6 +6,8 @@ import radiantPlatformImage from "assets/RadiantPlatform.png";
 import clinicalLLMImage from "assets/NN.png";
 import dataIntegrationImage from "assets/DataIntegration.png";
 import evidenceImage from "assets/evidence.png";
+import ReactPlayer from "react-player";
+
 const JACKPOT_DATA = [
   {
     image: clinicalLLMImage,
@@ -28,44 +30,64 @@ const Jackpot = () => {
   return (
     <Box as="section" sx={styles.jackpot}>
       <Container>
-      <BlockTitle title="Core Features" text="" />
-        <Flex sx={styles.flex}>
-          <Box sx={styles.image}>
-          <script type="text/javascript" async
-              src="https://play.vidyard.com/embed/v4.js">
-            </script>
-            <img
-              style={{maxWidth: "100%", margin: "auto", display: "block"}}
-              className="vidyard-player-embed"
-              src="https://play.vidyard.com/oE8S8zBieYMnQfax1Rs8Dt.jpg"
-              data-uuid="oE8S8zBieYMnQfax1Rs8Dt"
-              data-v="4"
-              data-type="inline"
-            />
-          </Box>
-          <Box sx={styles.content}>
-            {/* <Box sx={styles.heading}>
-              <Text as="span">Core features</Text>
-            </Box> */}
-            <Box sx={styles.jackpotCardBox}>
-              {JACKPOT_DATA.map(({ image, heading, text }, index) => (
+        {/* <BlockTitle title="Core Features" text="" /> */}
+        {/* {JACKPOT_DATA.map(({ image, heading, text }, index) => (
                 <JackpotCard
                   image={image}
                   heading={heading}
                   text={text}
                   key={index}
                 />
-              ))}
+              ))} */}
+
+        <Box sx={styles.content}>
+          {/* <Box sx={styles.heading}>
+            <Text as="span">Core features</Text>
+          </Box> */}
+          <Flex sx={styles.jackpotCardRow}>
+            <Box sx={styles.jackpotCardBox}>
+              <Flex sx={styles.flex}>
+                <Box sx={styles.image}>
+                  <div style={{ padding: "75% 0 0 0", position: "relative" }}>
+                    <ReactPlayer url="https://vimeo.com/892953881" controls />
+                  </div>
+                  {/* <div style={{ padding: "75% 0 0 0", position: "relative" }}>
+                    <iframe
+                      src="https://player.vimeo.com/video/892953881?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                      }}
+                      title="RadiantAI"
+                    ></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script> */}
+                </Box>
+              </Flex>
             </Box>
-          </Box>
-        </Flex>
+          </Flex>
+          <Flex sx={styles.jackpotCardRow}>
+            {JACKPOT_DATA.map(({ image, heading, text }, index) => (
+              <JackpotCard
+                image={image}
+                heading={heading}
+                text={text}
+                key={index}
+              />
+            ))}
+          </Flex>
+        </Box>
       </Container>
     </Box>
   );
 };
 
 export default Jackpot;
-
 const styles = {
   jackpot: {
     pt: ["65px", null, null, null, "85px", null, "125px"],
@@ -75,12 +97,14 @@ const styles = {
   },
   image: {
     flex: ["0 0 100%", null, null, null, null, "0 0 62.5%"],
-
+    maxWidth: "100%",
+    margin: "auto",
+    display: "block",
     img: {
-      maxWidth: ["100%", null, null, null, null, null, "none"],
+      maxWidth: "100%",
       maxHeight: [null, null, null, null, null, null, "700px"],
       float: "right",
-      border: 'black 5px',
+      border: "black 5px",
       borderRadius: "15px",
     },
   },

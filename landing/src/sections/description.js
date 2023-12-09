@@ -9,15 +9,17 @@ const Description = () => {
         <hr />
         <Text as="p">
           Get the high-yield, expert-reviewed information you need in seconds,
-          just by asking for it. Built on top of LLMs, RadiantAI Chat allows
-          clinicians and medical professionals to quickly ask for up-to-date,
-          high-quality, medical information. Our proprietary dataset of clinical
-          guidelines prevents hallucinations, giving you information you can
-          trust without the need for an expensive subscription or searching
-          through a reference yourself.
+          just by asking for it. Built on top of our proprietary OSLER-platform
+          LLM framework, RadiantAI Chat allows clinicians and medical
+          professionals to quickly ask for up-to-date, high-quality, medical
+          information. Our proprietary dataset of clinical guidelines prevents
+          hallucinations, giving you information you can trust without the need
+          for an expensive subscription or searching through a reference
+          yourself.
         </Text>
       </Container>
     </Box>
+
   );
 };
 
@@ -29,7 +31,9 @@ const styles = {
     px: ["20px", null, null, null, "350px", null, "370px"],
     textAlign: ["left", null, null, null, null, "center"],
     hr: {
-      backgroundColor: "black", height:"5px", width:"20%"
+      backgroundColor: "black",
+      height: "5px",
+      width: "20%",
     },
     p: {
       fontSize: "16px",

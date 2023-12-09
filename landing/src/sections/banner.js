@@ -8,7 +8,7 @@ const Banner = () => {
     <Box as="section" id="banner" sx={styles.banner}>
       <Container sx={styles.container}>
         <Heading as="h2">ChatGPT for healthcare learners</Heading>
-        <Box sx={styles.btnContainer}>
+        {/* <Box sx={styles.btnContainer}>
           <A
             href="https://chat.radiantai.health/"
             target="_blank"
@@ -19,8 +19,8 @@ const Banner = () => {
           >
             Launch Radiant
           </A>
-        </Box>
-        <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
+        </Box> */}
+        {/* <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" /> */}
       </Container>
     </Box>
   );
