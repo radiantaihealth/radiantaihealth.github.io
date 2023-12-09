@@ -6,6 +6,7 @@ import radiantPlatformImage from "assets/RadiantPlatform.png";
 import clinicalLLMImage from "assets/NN.png";
 import dataIntegrationImage from "assets/DataIntegration.png";
 import evidenceImage from "assets/evidence.png";
+
 import ReactPlayer from "react-player";
 
 const JACKPOT_DATA = [
@@ -44,33 +45,13 @@ const Jackpot = () => {
           {/* <Box sx={styles.heading}>
             <Text as="span">Core features</Text>
           </Box> */}
-          <Flex sx={styles.jackpotCardRow}>
-            <Box sx={styles.jackpotCardBox}>
-              <Flex sx={styles.flex}>
-                <Box sx={styles.image}>
-                  <div style={{ padding: "75% 0 0 0", position: "relative" }}>
-                    <ReactPlayer url="https://vimeo.com/892953881" controls />
-                  </div>
-                  {/* <div style={{ padding: "75% 0 0 0", position: "relative" }}>
-                    <iframe
-                      src="https://player.vimeo.com/video/892953881?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                      frameBorder="0"
-                      allow="autoplay; fullscreen; picture-in-picture"
-                      style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                      }}
-                      title="RadiantAI"
-                    ></iframe>
-                  </div>
-                  <script src="https://player.vimeo.com/api/player.js"></script> */}
-                </Box>
-              </Flex>
-            </Box>
-          </Flex>
+          {/* <Flex
+            sx={{ ...styles.jackpotCardRow, justifyContent: "center" }}
+            alignItems="center"
+          >
+            <ReactPlayer url="https://vimeo.com/892953881" controls />
+          </Flex> */}
+
           <Flex sx={styles.jackpotCardRow}>
             {JACKPOT_DATA.map(({ image, heading, text }, index) => (
               <JackpotCard

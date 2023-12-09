@@ -1,7 +1,17 @@
 import React from "react";
-import { Box, Container, Image, Heading, Text, Link as A } from "theme-ui";
+import {
+  Box,
+  Container,
+  Flex,
+  Image,
+  Heading,
+  Text,
+  Link as A,
+} from "theme-ui";
 import { keyframes } from "@emotion/core";
 import bannerImage from "assets/2.png";
+
+import ReactPlayer from "react-player";
 
 const Banner = () => {
   return (
@@ -20,7 +30,17 @@ const Banner = () => {
             Launch Radiant
           </A>
         </Box> */}
+
         {/* <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" /> */}
+        <Flex
+          sx={{ ...styles.jackpotCardRow, justifyContent: "center" }}
+          alignItems="center"
+        >
+          <ReactPlayer url="https://vimeo.com/892953881" controls />
+        </Flex>
+        <Flex sx={{ ...styles.jackpotCardRow, padding: "50px 0" }}>
+          {/* Add your additional content here */}
+        </Flex>
       </Container>
     </Box>
   );
