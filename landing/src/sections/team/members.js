@@ -11,7 +11,7 @@ const TEAM_DATA = [
   {
     image: johnImage,
     name: "John Chen",
-    title: "Founding Engineer",
+    title: "Founding Applied Scientist",
     description:
       "John completed his graduate degree in Natural Language Processing at University of Toronto, publishing award-winning research in ClinicalNLP. " +
       "After working at Lyft as a Machine Learning Engineer, he went back to medical school at McGill University, where he has been building Radiant AI chat.",
